@@ -207,6 +207,15 @@ body {
 	padding-bottom: 2%;
 }
 
+/* Align the images and text on testimonials */
+#testimonials aside:first-of-type p:first-of-type {
+	margin-top: 30%;
+}
+
+#testimonials aside:nth-of-type(2) p:first-of-type {
+	margin-top: 25%;
+}
+
 /* Testimonials images styling and positioning */
 #testimonials aside img {
 	width: 100%;
@@ -269,10 +278,12 @@ body {
 
 /* Style and position textarea */
 #contact form textarea {
-	margin: 1% 10% 0 65%;
+	margin: 1% 10% 0 55%;
+	width: 250px;
+	height: 180px;
 	box-shadow: 1px 1px 2px gray;
 	padding: 2%;
-	font-size: 1em;
+	font-size: 1.3em;
 	color: #09090f;
 }
 
@@ -283,7 +294,7 @@ body {
 
 /* Style and position button */
 #contact form button {
-	margin: 1% 0 0 119%;
+	margin: 1% 0 0 105%;
 	padding: 2%;
 	width: 100px;
 	height: auto;
@@ -294,5 +305,10 @@ body {
 
 /* Position contact section video */
 #contact aside {
-	margin: 5% 0 0 15%;
+	margin: 5% 0 0 5%;
+}
+
+#contact aside video {
+	width: 95%;
+	height: 95%;
 }
