@@ -114,8 +114,7 @@ body {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	background-image: linear-gradient(
-		to right top,
+	background-image: linear-gradient(to right top,
 		#a7e6d7,
 		#a2e5d6,
 		#9de5d4,
@@ -127,8 +126,7 @@ body {
 		#00afe9,
 		#0092f4,
 		#006eef,
-		#5b3bd1
-	);
+		#5b3bd1);
 }
 
 /* Position items within specification section */
@@ -247,7 +245,7 @@ body {
 
 /* Position first label */
 #contact form label:first-of-type {
-	margin: 20% 0 0 15%;
+	margin: 27% 0 0 15%;
 }
 
 /* Position second label */
@@ -280,11 +278,12 @@ body {
 #contact form textarea {
 	margin: 1% 10% 0 55%;
 	width: 250px;
-	height: 180px;
+	height: 170px;
 	box-shadow: 1px 1px 2px gray;
 	padding: 2%;
 	font-size: 1.3em;
 	color: #09090f;
+	resize: none;
 }
 
 /* Style focus on textarea */
@@ -294,7 +293,7 @@ body {
 
 /* Style and position button */
 #contact form button {
-	margin: 1% 0 0 105%;
+	margin: 8% 0 0 105%;
 	padding: 2%;
 	width: 100px;
 	height: auto;
@@ -304,11 +303,17 @@ body {
 }
 
 /* Position contact section video */
-#contact aside {
+#contact figure {
 	margin: 5% 0 0 5%;
 }
 
-#contact aside video {
-	width: 95%;
-	height: 95%;
+#contact figure video {
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 2px 3px #1d1d1f;
+}
+
+#contact figure figcaption {
+	font-weight: bold;
+	color: #09090f;
 }
